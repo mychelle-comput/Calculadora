@@ -16,9 +16,9 @@ public class Calculadora {
         num2 = ler.nextDouble();
         Calculos calcular = new  Calculos();
         resultado = calcular.somar(num1,num2);
-        System.out.println("A soma dos números = " + resultado);
+        System.out.println("A soma dos números = " + new Double(resultado) .intValue());
         resultado = calcular.subtrair(num1, num2);
-        System.out.println("A subtração dos números = "+ resultado);
+        System.out.println("A subtração dos números = "+ new Double(resultado) .intValue());
         resultado = calcular.multiplicar(num1,num2);
         System.out.println("A multiplicação dos numeros = " + resultado);
         resultado = calcular.dividir(num1,num2);
